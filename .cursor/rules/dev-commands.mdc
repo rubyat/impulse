@@ -1,0 +1,12 @@
+---
+description: Common commands for running and building the app
+---
+# Dev and Build Commands
+
+- Start dev server: `yarn dev --port 3001 --host` (port 3000 may be in use).
+- Production build: `yarn build`.
+- Preview production build locally: `node .output/server/index.mjs`.
+
+Key files referenced by these commands:
+- [nuxt.config.ts](mdc:nuxt.config.ts)
+- [assets/css/tailwind.css](mdc:assets/css/tailwind.css)

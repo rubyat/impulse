@@ -1,0 +1,14 @@
+---
+globs: *.vue,*.ts
+description: Tailwind-first styling and mobile UI conventions
+---
+# Tailwind + Mobile UI Rules
+
+- Use Tailwind for all styling (no CSS-in-JS). Mobile-first layout.
+- Base containers typically use `px-4` or `px-5` and `bg-white` or `bg-gray-50`.
+- Cards: `rounded-2xl`, `border border-gray-100`, `shadow-sm`, `p-4` to match the design language.
+- Text: `text-gray-900` for headings, `text-gray-500/600` for secondary text.
+- Accent color: use `text-emerald-500`/`bg-emerald-500` when needed.
+- Safe areas: custom utilities `.safe-top`/`.safe-bottom` are defined in [assets/css/tailwind.css](mdc:assets/css/tailwind.css). Use them for notch/home-indicator spacing.
+- Bottom tabbar: `fixed bottom-0 left-0 right-0`, `border-t border-gray-200`, and `.safe-bottom` padding.
+- Prefer semantic Tailwind spacing/size tokens over hard-coded pixels; only use arbitrary values for exact visual matches.

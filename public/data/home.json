@@ -1,0 +1,94 @@
+{
+  "header": {
+    "logoSrc": "/app-icon.svg",
+    "title": "Impulse",
+    "subtitle": "Health & Wellness Centre",
+    "ctaLabel": "Book",
+    "menuAriaLabel": "Menu"
+  },
+  "appointment": {
+    "avatarSrc": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=120&auto=format&fit=crop",
+    "heading": "Upcoming appointment",
+    "doctorName": "Dr. Busra Tekin",
+    "statusDot": "●",
+    "statusColorClass": "text-emerald-500",
+    "time": "2:30 PM",
+    "location": "Central Hospital",
+    "bellEmoji": "🔔"
+  },
+  "whatAreYouLookingForTitle": "What are you looking for?",
+  "actions": [
+    { "iconBg": "bg-teal-100", "iconEmoji": "⏱️", "title": "Book an Appointment", "subtitle": "6 Doctors are available" },
+    { "iconBg": "bg-cyan-100", "iconEmoji": "🧪", "title": "Lab Tests at Home", "subtitle": "92 Diagnostics are available" },
+    { "iconBg": "bg-orange-100", "iconEmoji": "💬", "title": "Online Healt Consultant", "subtitle": "+14 Consultants" }
+  ],
+  "campaigns": {
+    "sectionTitle": "New Campaigns",
+    "seeMoreLabel": "See More",
+    "items": [
+      {
+        "badge": "Last 17 days",
+        "title": "New Year Special 10% Discount!",
+        "description": "Check out our campaign for a...",
+        "image": "https://images.unsplash.com/photo-1588771930290-89d45393aaad?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "badge": "Last 11 days",
+        "title": "Yeni Yıla Özel %10 ind...",
+        "description": "Yeni yılda daha mutlu bir...",
+        "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800&auto=format&fit=crop"
+      }
+    ]
+  },
+  "specialists": {
+    "sectionTitle": "All Specialists",
+    "seeMoreLabel": "See More",
+    "items": [
+      {
+        "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=120&auto=format&fit=crop",
+        "name": "Prof. Dr. Zafer KESKİN",
+        "title": "Clinic Manager",
+        "rating": 5
+      },
+      {
+        "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=120&auto=format&fit=crop",
+        "name": "Dr. Müge ASLI",
+        "title": "Family Medicine, Oncology",
+        "rating": 3
+      },
+      {
+        "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=120&auto=format&fit=crop",
+        "name": "Dr. Mehmet ENGÜR",
+        "title": "Dental Hygienist",
+        "rating": 4
+      }
+    ]
+  },
+  "departments": {
+    "sectionTitle": "Our Departments",
+    "seeMoreLabel": "See More",
+    "items": [
+      {
+        "image": "https://images.unsplash.com/photo-1517707711963-adf9078bdf01?q=80&w=800&auto=format&fit=crop",
+        "title": "Cardiology"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1529257414771-1960a04227f3?q=80&w=800&auto=format&fit=crop",
+        "title": "Neurology"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1583912267559-d59d1d9873c5?q=80&w=800&auto=format&fit=crop",
+        "title": "Surgery"
+      }
+    ]
+  },
+  "tabs": [
+    { "key": "home", "label": "Home", "icon": "🏠" },
+    { "key": "calendar", "label": "Calendar", "icon": "🗓️" },
+    { "key": "media", "label": "Media", "icon": "🖼️" },
+    { "key": "profile", "label": "Profile", "icon": "👤" },
+    { "key": "menu", "label": "Menu", "icon": "≡" }
+  ]
+}
+
+

@@ -1,0 +1,22 @@
+---
+alwaysApply: true
+---
+# Project Structure (Nuxt 4 + Tailwind)
+
+- This is a Nuxt 4 app with Vue 3 and Tailwind CSS.
+- Key entry files:
+  - [nuxt.config.ts](mdc:nuxt.config.ts)
+  - [app.vue](mdc:app/app.vue)
+  - Default layout: [default.vue](mdc:app/layouts/default.vue)
+  - Home page: [index.vue](mdc:app/pages/index.vue)
+- Tailwind CSS is registered from [assets/css/tailwind.css](mdc:assets/css/tailwind.css). A mirrored copy exists at [app/assets/css/tailwind.css](mdc:app/assets/css/tailwind.css) for robustness.
+- UI is composed of small, reusable components in `app/components`:
+  - [AppointmentCard.vue](mdc:app/components/AppointmentCard.vue)
+  - [ActionListItem.vue](mdc:app/components/ActionListItem.vue)
+  - [CampaignCard.vue](mdc:app/components/CampaignCard.vue)
+  - [Tabbar.vue](mdc:app/components/Tabbar.vue)
+
+Coding conventions:
+- Prefer `<script setup lang="ts">` in Vue SFCs.
+- Use meaningful prop names with `defineProps<...>()`.
+- Keep components focused; extract repeated UI into separate components.

@@ -1,0 +1,10 @@
+---
+description: Nuxt aliases, asset paths, and CSS registration
+---
+# Nuxt Aliases and Assets
+
+- Use `~/` (or `@/`) for source imports. In config and CSS lists, prefer `~/assets/...`.
+- Tailwind registration should reference: `css: ['~/assets/css/tailwind.css']` in [nuxt.config.ts](mdc:nuxt.config.ts).
+- Place processed assets (CSS, images to be imported) in `assets/`; place static public files in `public/` and reference with absolute paths like `/favicon.ico`.
+- Avoid `@assets` alias and double `app//` path segments; they can break Vite resolution.
+- Vue SFCs should use `<script setup lang="ts">` and Nuxt auto-imports when possible.
