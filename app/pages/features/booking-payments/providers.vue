@@ -11,22 +11,22 @@
 
       <div class="bg-white border rounded-xl p-4 flex items-center justify-between">
         <div>
-          <div class="font-medium">Center A</div>
-          <div class="text-xs text-slate-500">IVF • City Center</div>
+          <div class="font-medium">Dhanmondi Clinic</div>
+          <div class="text-xs text-slate-500">IVF • Dhanmondi, Dhaka</div>
         </div>
         <NuxtLink to="/features/booking-payments/booking" class="px-3 py-2 rounded-lg border">Select</NuxtLink>
       </div>
       <div class="bg-white border rounded-xl p-4 flex items-center justify-between">
         <div>
-          <div class="font-medium">Center B</div>
-          <div class="text-xs text-slate-500">Aesthetics • North</div>
+          <div class="font-medium">Banani Aesthetics</div>
+          <div class="text-xs text-slate-500">Aesthetics • Banani, Dhaka</div>
         </div>
         <NuxtLink to="/features/booking-payments/booking" class="px-3 py-2 rounded-lg border">Select</NuxtLink>
       </div>
       <div class="bg-white border rounded-xl p-4 flex items-center justify-between">
         <div>
-          <div class="font-medium">Center C</div>
-          <div class="text-xs text-slate-500">General • South</div>
+          <div class="font-medium">Chattogram General</div>
+          <div class="text-xs text-slate-500">General • Chattogram</div>
         </div>
         <NuxtLink to="/features/booking-payments/booking" class="px-3 py-2 rounded-lg border">Select</NuxtLink>
       </div>

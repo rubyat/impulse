@@ -9,7 +9,7 @@
 
       <section class="bg-white border rounded-xl p-4">
         <div class="font-medium">IVF Consultation</div>
-        <div class="text-xs text-slate-500">Base from $200</div>
+        <div class="text-xs text-slate-500">Base from ৳5,000</div>
       </section>
 
       <section class="bg-white border rounded-xl p-4">
@@ -32,9 +32,9 @@
       <section class="bg-white border rounded-xl p-4">
         <div class="font-medium">Locations</div>
         <div class="mt-2 flex gap-2 text-xs">
-          <button class="px-3 py-1.5 rounded-full border bg-white">Center A</button>
-          <button class="px-3 py-1.5 rounded-full border bg-white">Center B</button>
-          <button class="px-3 py-1.5 rounded-full border bg-white">Center C</button>
+          <button class="px-3 py-1.5 rounded-full border bg-white">Dhanmondi, Dhaka</button>
+          <button class="px-3 py-1.5 rounded-full border bg-white">Banani, Dhaka</button>
+          <button class="px-3 py-1.5 rounded-full border bg-white">Chattogram</button>
         </div>
       </section>
 

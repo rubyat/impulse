@@ -15,7 +15,7 @@
 
       <section class="bg-white border rounded-xl p-4 space-y-2">
         <div class="flex items-center justify-between rounded-lg border p-3 text-xs"><span>+200 Executive Health+ checkup</span><span class="text-emerald-600">+200</span></div>
-        <div class="flex items-center justify-between rounded-lg border p-3 text-xs"><span>-500 $10 lab credit</span><span class="text-rose-600">-500</span></div>
+        <div class="flex items-center justify-between rounded-lg border p-3 text-xs"><span>-500 ৳1,000 lab credit</span><span class="text-rose-600">-500</span></div>
       </section>
 
       <section class="bg-white border rounded-xl p-4">

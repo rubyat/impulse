@@ -30,11 +30,11 @@
         <div class="font-medium">Aug 2025</div>
         <NuxtLink to="/features/health-vault/record/abc123" class="block rounded-lg border p-3">
           <div class="font-medium">CBC Panel</div>
-          <div class="text-xs text-slate-500">Aug 12 • City Lab</div>
+          <div class="text-xs text-slate-500">Aug 12 • Popular Diagnostic Center, Dhanmondi</div>
         </NuxtLink>
         <NuxtLink to="/features/health-vault/invoice/inv001" class="block rounded-lg border p-3">
           <div class="font-medium">Invoice INV-001</div>
-          <div class="text-xs text-slate-500">Aug 05 • City Lab</div>
+          <div class="text-xs text-slate-500">Aug 05 • Popular Diagnostic Center, Dhanmondi</div>
         </NuxtLink>
       </section>
 
@@ -42,7 +42,7 @@
         <div class="font-medium">Jul 2025</div>
         <NuxtLink to="/features/health-vault/record/def456" class="block rounded-lg border p-3">
           <div class="font-medium">Chest X-ray</div>
-          <div class="text-xs text-slate-500">Jul 29 • Metro Imaging</div>
+          <div class="text-xs text-slate-500">Jul 29 • Ibn Sina Diagnostic, Dhanmondi</div>
         </NuxtLink>
       </section>
     </main>

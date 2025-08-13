@@ -21,6 +21,7 @@
           <div class="group relative min-h-screen md:min-h-0 md:h-[932px] md:w-[430px] md:rounded-[2.4rem] md:overflow-hidden md:bg-white">
             <!-- Dynamic Island component -->
             <DynamicIsland />
+            <SplashScreen />
 
             <NuxtLayout>
               <NuxtPage />

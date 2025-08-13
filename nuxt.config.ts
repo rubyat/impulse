@@ -15,10 +15,12 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'PublMed',
+      title: 'Impulse',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' }
       ]
-    }
+    },
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' }
   }
 })

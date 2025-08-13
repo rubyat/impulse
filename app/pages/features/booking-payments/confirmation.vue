@@ -10,8 +10,8 @@
       <div class="bg-white border rounded-xl p-4 text-center space-y-2">
         <div class="text-3xl">✅</div>
         <div class="font-medium">Booking confirmed</div>
-        <div class="text-xs text-slate-600">IVF Consultation • Center A • 10:30 Off-peak • Mobile Money</div>
-        <div class="font-medium">Total $180</div>
+        <div class="text-xs text-slate-600">IVF Consultation • Dhanmondi, Dhaka • 10:30 Off-peak • Mobile Money</div>
+        <div class="font-medium">Total ৳4,500</div>
       </div>
 
       <div class="grid grid-cols-2 gap-2">

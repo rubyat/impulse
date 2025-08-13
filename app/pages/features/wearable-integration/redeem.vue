@@ -8,7 +8,7 @@
       </div>
 
       <section class="bg-white border rounded-xl p-4">
-        <div class="font-medium">$10 lab credit</div>
+        <div class="font-medium">৳1,000 lab credit</div>
         <div class="text-xs text-slate-600">Cost: 500 pts • Your balance: 2,450 pts</div>
       </section>
 

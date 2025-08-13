@@ -18,14 +18,14 @@
       <div class="bg-white border rounded-xl p-4 flex items-center justify-between">
         <div>
           <div class="font-medium">Cardiology</div>
-          <div class="text-xs text-slate-500">Center A</div>
+          <div class="text-xs text-slate-500">Dhanmondi Clinic</div>
         </div>
         <button class="px-3 py-2 rounded-lg border">Select</button>
       </div>
       <div class="bg-white border rounded-xl p-4 flex items-center justify-between">
         <div>
           <div class="font-medium">Internal Medicine</div>
-          <div class="text-xs text-slate-500">Center B</div>
+          <div class="text-xs text-slate-500">Banani Clinic</div>
         </div>
         <button class="px-3 py-2 rounded-lg border">Select</button>
       </div>

@@ -21,15 +21,15 @@
         <div class="font-medium">Featured services</div>
         <NuxtLink to="/features/booking-payments/service/ivf-consult" class="block rounded-lg border p-3">
           <div class="font-medium">IVF Consultation</div>
-          <div class="text-xs text-slate-500">From $200 • Peak pricing may apply</div>
+          <div class="text-xs text-slate-500">From ৳5,000 • Peak pricing may apply</div>
         </NuxtLink>
         <NuxtLink to="/features/booking-payments/service/ivf-cycle" class="block rounded-lg border p-3">
           <div class="font-medium">IVF Cycle</div>
-          <div class="text-xs text-slate-500">From $1,800 • Peak pricing may apply</div>
+          <div class="text-xs text-slate-500">From ৳180,000 • Peak pricing may apply</div>
         </NuxtLink>
         <NuxtLink to="/features/booking-payments/service/laser-resurfacing" class="block rounded-lg border p-3">
           <div class="font-medium">Laser Resurfacing</div>
-          <div class="text-xs text-slate-500">From $320 • Peak pricing may apply</div>
+          <div class="text-xs text-slate-500">From ৳32,000 • Peak pricing may apply</div>
         </NuxtLink>
       </section>
 

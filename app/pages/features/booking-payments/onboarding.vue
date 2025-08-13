@@ -10,9 +10,9 @@
       <section class="bg-white border rounded-xl p-4">
         <div class="font-medium">Set currency</div>
         <div class="mt-2 flex gap-2 text-xs">
+          <button class="px-3 py-1.5 rounded-full border bg-white">BDT</button>
           <button class="px-3 py-1.5 rounded-full border bg-white">USD</button>
           <button class="px-3 py-1.5 rounded-full border bg-white">EUR</button>
-          <button class="px-3 py-1.5 rounded-full border bg-white">BDT</button>
         </div>
       </section>
 

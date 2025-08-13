@@ -19,8 +19,8 @@
         <div class="grid grid-cols-2 gap-2 text-xs text-slate-700">
           <div><div class="text-slate-500">Category</div><div>Labs</div></div>
           <div><div class="text-slate-500">Date of service</div><div>Aug 12, 2025</div></div>
-          <div><div class="text-slate-500">Source</div><div>City Lab</div></div>
-          <div><div class="text-slate-500">Patient</div><div>Jane Doe</div></div>
+          <div><div class="text-slate-500">Source</div><div>Popular Diagnostic Center, Dhanmondi</div></div>
+          <div><div class="text-slate-500">Patient</div><div>Aisha Rahman</div></div>
           <div><div class="text-slate-500">File</div><div>PDF • 220 KB</div></div>
         </div>
       </section>
@@ -36,11 +36,11 @@
         <div class="font-medium">Related</div>
         <NuxtLink to="/features/health-vault/record/jkl222" class="block rounded-lg border p-3">
           <div class="font-medium">HbA1c</div>
-          <div class="text-xs text-slate-500">Aug 01, 2025 • City Lab</div>
+          <div class="text-xs text-slate-500">Aug 01, 2025 • Popular Diagnostic Center, Dhanmondi</div>
         </NuxtLink>
         <NuxtLink to="/features/health-vault/record/ghi789" class="block rounded-lg border p-3">
           <div class="font-medium">Metformin Rx</div>
-          <div class="text-xs text-slate-500">Jul 20, 2025 • Downtown Pharmacy</div>
+          <div class="text-xs text-slate-500">Jul 20, 2025 • Lazz Pharma, Dhanmondi</div>
         </NuxtLink>
       </section>
     </main>

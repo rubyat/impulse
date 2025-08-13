@@ -13,7 +13,7 @@
         <div class="mt-1">
           <span class="rounded-full border px-2 py-0.5 text-amber-700 bg-amber-50 text-xs">Bronze</span>
         </div>
-        <div class="text-xs text-slate-600 mt-1">From $29/mo</div>
+        <div class="text-xs text-slate-600 mt-1">From ৳2,900/mo</div>
       </section>
 
       <!-- Benefits -->

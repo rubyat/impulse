@@ -15,8 +15,8 @@
         <div class="grid grid-cols-2 gap-2 text-xs text-slate-700">
           <div><div class="text-slate-500">Number</div><div>INV-001</div></div>
           <div><div class="text-slate-500">Date</div><div>Aug 05, 2025</div></div>
-          <div><div class="text-slate-500">Provider</div><div>City Lab</div></div>
-          <div><div class="text-slate-500">Amount</div><div>$120</div></div>
+          <div><div class="text-slate-500">Provider</div><div>Popular Diagnostic Center, Dhanmondi</div></div>
+          <div><div class="text-slate-500">Amount</div><div>৳12,000</div></div>
         </div>
       </section>
 

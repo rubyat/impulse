@@ -20,10 +20,10 @@
         <div class="flex items-center justify-between">
           <div>
             <div class="font-medium">INV-001</div>
-            <div class="text-xs text-slate-500">Aug 05, 2025 • City Lab</div>
+            <div class="text-xs text-slate-500">Aug 05, 2025 • Popular Diagnostic Center, Dhanmondi</div>
           </div>
           <div class="text-right">
-            <div class="font-medium">$120</div>
+            <div class="font-medium">৳12,000</div>
             <div class="text-xs text-emerald-600">Paid</div>
           </div>
         </div>
@@ -33,10 +33,10 @@
         <div class="flex items-center justify-between">
           <div>
             <div class="font-medium">INV-002</div>
-            <div class="text-xs text-slate-500">Jul 15, 2025 • Metro Imaging</div>
+            <div class="text-xs text-slate-500">Jul 15, 2025 • Ibn Sina Diagnostic, Dhanmondi</div>
           </div>
           <div class="text-right">
-            <div class="font-medium">$240</div>
+            <div class="font-medium">৳24,000</div>
             <div class="text-xs text-rose-600">Unpaid</div>
           </div>
         </div>

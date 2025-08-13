@@ -28,17 +28,17 @@
         <div class="font-medium">Recent items</div>
         <NuxtLink to="/features/health-vault/record/abc123" class="block rounded-lg border p-3">
           <div class="font-medium">CBC Panel</div>
-          <div class="text-xs text-slate-500">Aug 12, 2025 • City Lab</div>
+          <div class="text-xs text-slate-500">Aug 12, 2025 • Popular Diagnostic Center, Dhanmondi</div>
           <div class="text-xs text-slate-500">PDF • 220 KB</div>
         </NuxtLink>
         <NuxtLink to="/features/health-vault/record/def456" class="block rounded-lg border p-3">
           <div class="font-medium">Chest X-ray</div>
-          <div class="text-xs text-slate-500">Jul 29, 2025 • Metro Imaging</div>
+          <div class="text-xs text-slate-500">Jul 29, 2025 • Ibn Sina Diagnostic, Dhanmondi</div>
           <div class="text-xs text-slate-500">JPG • 1.2 MB</div>
         </NuxtLink>
         <NuxtLink to="/features/health-vault/record/ghi789" class="block rounded-lg border p-3">
           <div class="font-medium">Metformin Rx</div>
-          <div class="text-xs text-slate-500">Jul 20, 2025 • Downtown Pharmacy</div>
+          <div class="text-xs text-slate-500">Jul 20, 2025 • Lazz Pharma, Dhanmondi</div>
           <div class="text-xs text-slate-500">PDF • 90 KB</div>
         </NuxtLink>
       </section>

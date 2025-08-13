@@ -16,10 +16,10 @@
         <div class="flex items-center justify-between">
           <div>
             <div class="font-medium">IVF Consultation</div>
-            <div class="text-xs text-slate-500">Aug 14, 10:30 • Center A</div>
+            <div class="text-xs text-slate-500">Aug 14, 10:30 • Dhanmondi, Dhaka</div>
           </div>
           <div class="text-right">
-            <div class="font-medium">$180</div>
+            <div class="font-medium">৳4,500</div>
             <div class="text-xs text-emerald-600">Confirmed</div>
           </div>
         </div>

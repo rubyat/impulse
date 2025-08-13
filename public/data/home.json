@@ -1,72 +1,72 @@
 {
   "header": {
-    "logoSrc": "/app-icon.svg",
+    "logoSrc": "/app/assets/images/logo.png",
     "title": "Impulse",
     "subtitle": "Health & Wellness Centre",
     "ctaLabel": "Book",
     "menuAriaLabel": "Menu"
   },
   "appointment": {
-    "avatarSrc": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=120&auto=format&fit=crop",
+    "avatarSrc": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=120&auto=format&fit=crop",
     "heading": "Upcoming appointment",
-    "doctorName": "Dr. Busra Tekin",
+    "doctorName": "Dr. Nazmul Hasan",
     "statusDot": "●",
     "statusColorClass": "text-emerald-500",
     "time": "2:30 PM",
-    "location": "Central Hospital",
+    "location": "Square Hospital, Dhaka",
     "bellEmoji": "🔔"
   },
   "whatAreYouLookingForTitle": "What are you looking for?",
   "actions": [
-    { "iconBg": "bg-teal-100", "iconEmoji": "⏱️", "title": "Book an Appointment", "subtitle": "6 Doctors are available" },
-    { "iconBg": "bg-cyan-100", "iconEmoji": "🧪", "title": "Lab Tests at Home", "subtitle": "92 Diagnostics are available" },
-    { "iconBg": "bg-orange-100", "iconEmoji": "💬", "title": "Online Healt Consultant", "subtitle": "+14 Consultants" }
+    { "iconBg": "bg-teal-100", "iconEmoji": "⏱️", "title": "Book an Appointment", "subtitle": "6 doctors available" },
+    { "iconBg": "bg-cyan-100", "iconEmoji": "🧪", "title": "Lab Tests at Home", "subtitle": "92 diagnostics available in Dhaka" },
+    { "iconBg": "bg-orange-100", "iconEmoji": "💬", "title": "Online Health Consultation", "subtitle": "+14 consultants" }
   ],
   "campaigns": {
-    "sectionTitle": "New Campaigns",
-    "seeMoreLabel": "See More",
+    "sectionTitle": "Current Offers",
+    "seeMoreLabel": "See more",
     "items": [
       {
-        "badge": "Last 17 days",
-        "title": "New Year Special 10% Discount!",
-        "description": "Check out our campaign for a...",
+        "badge": "Ends in 17 days",
+        "title": "Eid Health Check – 10% off",
+        "description": "Discount on basic health packages across Dhaka.",
         "image": "https://images.unsplash.com/photo-1588771930290-89d45393aaad?q=80&w=800&auto=format&fit=crop"
       },
       {
-        "badge": "Last 11 days",
-        "title": "Yeni Yıla Özel %10 ind...",
-        "description": "Yeni yılda daha mutlu bir...",
+        "badge": "Ends in 11 days",
+        "title": "Pohela Boishakh Special – 10% off",
+        "description": "Celebrate with preventive care for your family.",
         "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800&auto=format&fit=crop"
       }
     ]
   },
   "specialists": {
     "sectionTitle": "All Specialists",
-    "seeMoreLabel": "See More",
+    "seeMoreLabel": "See more",
     "items": [
       {
         "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=120&auto=format&fit=crop",
-        "name": "Prof. Dr. Zafer KESKİN",
-        "title": "Clinic Manager",
+        "name": "Prof. Dr. Samira Rahman",
+        "title": "Cardiologist",
         "rating": 5
       },
       {
-        "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=120&auto=format&fit=crop",
-        "name": "Dr. Müge ASLI",
-        "title": "Family Medicine, Oncology",
-        "rating": 3
+        "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=120&auto=format&fit=crop",
+        "name": "Dr. Tanvir Alam",
+        "title": "Family Medicine",
+        "rating": 4
       },
       {
-        "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=120&auto=format&fit=crop",
-        "name": "Dr. Mehmet ENGÜR",
-        "title": "Dental Hygienist",
+        "avatar": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=120&auto=format&fit=crop",
+        "name": "Dr. Nusrat Jahan",
+        "title": "Dental Surgeon",
         "rating": 4
       }
     ]
   },
   "departments": {
     "sectionTitle": "Our Departments",
-    "seeMoreLabel": "See More",
+    "seeMoreLabel": "See more",
     "items": [
       {
         "image": "https://images.unsplash.com/photo-1517707711963-adf9078bdf01?q=80&w=800&auto=format&fit=crop",
@@ -85,8 +85,8 @@
   "tabs": [
     { "key": "home", "label": "Home", "icon": "🏠" },
     { "key": "calendar", "label": "Calendar", "icon": "🗓️" },
-    { "key": "media", "label": "Media", "icon": "🖼️" },
     { "key": "profile", "label": "Profile", "icon": "👤" },
+    { "key": "settings", "label": "Settings", "icon": "⚙️" },
     { "key": "menu", "label": "Menu", "icon": "≡" }
   ]
 }

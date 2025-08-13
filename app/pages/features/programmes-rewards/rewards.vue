@@ -15,7 +15,7 @@
       </div>
 
       <NuxtLink to="/features/programmes-rewards/redeem?rewardId=lab10" class="block rounded-xl border bg-white p-4">
-        <div class="font-medium">$10 lab credit</div>
+        <div class="font-medium">৳1,000 lab credit</div>
         <div class="text-xs text-slate-600">500 pts</div>
       </NuxtLink>
       <NuxtLink to="/features/programmes-rewards/redeem?rewardId=consult10" class="block rounded-xl border bg-white p-4">

@@ -13,9 +13,9 @@
 
       <section class="bg-white border rounded-xl p-4 space-y-2">
         <div class="font-medium">Order summary</div>
-        <div class="flex items-center justify-between text-sm"><span>IVF Consultation</span><span>$200</span></div>
-        <div class="flex items-center justify-between text-sm text-emerald-700"><span>Off-peak adjustment</span><span>−$20</span></div>
-        <div class="flex items-center justify-between text-sm"><span>Total</span><span>$180</span></div>
+        <div class="flex items-center justify-between text-sm"><span>IVF Consultation</span><span>৳5,000</span></div>
+        <div class="flex items-center justify-between text-sm text-emerald-700"><span>Off-peak adjustment</span><span>−৳500</span></div>
+        <div class="flex items-center justify-between text-sm"><span>Total</span><span>৳4,500</span></div>
       </section>
 
       <section class="bg-white border rounded-xl p-4 space-y-2">

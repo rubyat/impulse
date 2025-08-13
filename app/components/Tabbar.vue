@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHouse, faCalendar, faImage, faUser, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faCalendar, faGear, faUser, faBars } from '@fortawesome/free-solid-svg-icons'
 import { useHamburgerMenu } from '../../composables/useHamburgerMenu'
 interface TabItem {
   key: string
@@ -16,7 +16,7 @@ const { open: openMenu } = useHamburgerMenu()
 const iconByKey: Record<string, any> = {
   home: faHouse,
   calendar: faCalendar,
-  media: faImage,
+  settings: faGear,
   profile: faUser,
   menu: faBars
 }
@@ -28,6 +28,14 @@ function handleClick(item: TabItem) {
   }
   if (item.key === 'calendar') {
     router.push('/calendar')
+    return
+  }
+  if (item.key === 'settings') {
+    router.push('/profile/settings')
+    return
+  }
+  if (item.key === 'profile') {
+    router.push('/profile/auth/login')
     return
   }
   if (item.key === 'menu') {

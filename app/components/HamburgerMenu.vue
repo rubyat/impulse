@@ -1,12 +1,20 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, watch } from 'vue'
+import { computed, onMounted, onUnmounted, watch } from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faUser, faCalendarCheck, faCreditCard, faFileMedical, faGear, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 import { useHamburgerMenu } from '../../composables/useHamburgerMenu'
 import { useContent } from '../../composables/useContent'
+import favPng from '~/assets/images/fav.png?url'
 
 const { isOpen, close } = useHamburgerMenu()
 const { data: content } = useContent()
+const router = useRouter()
+
+const menuLogo = computed(() => {
+  const candidate = content.value?.header?.logoSrc
+  if (candidate && candidate.startsWith('/app/assets/')) return favPng
+  return candidate || favPng
+})
 
 function onBackdropClick(event: MouseEvent) {
   // If clicked directly on backdrop (and not the panel), close
@@ -33,6 +41,31 @@ onUnmounted(() => {
 watch(isOpen, (open) => {
   document.body.style.overflow = open ? 'hidden' : ''
 })
+
+function goToProfileLogin() {
+  router.push('/profile')
+  close()
+}
+
+function goToProfilePayments() {
+  router.push('/profile/history/payments')
+  close()
+}
+
+function goToLogin() {
+  router.push('/profile/auth/login')
+  close()
+}
+
+function goToHealthVault() {
+  router.push('/features/health-vault')
+  close()
+}
+
+function goToSettings() {
+  router.push('/profile/settings')
+  close()
+}
 </script>
 
 <template>
@@ -52,9 +85,9 @@ watch(isOpen, (open) => {
           <div class="p-4 bg-gray-900 text-white">
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-3">
-                <img :src="content?.header.logoSrc || '/app-icon.svg'" :alt="content?.header.title || 'Brand'" class="h-10 w-10 rounded-xl bg-white p-1" />
+                <img :src="menuLogo" :alt="content?.header.title || 'Brand'" class="h-10 rounded-xl bg-white p-1" />
                 <div class="leading-tight">
-                  <div class="text-base font-semibold">{{ content?.header.title || 'PublMed' }}</div>
+                  <div class="text-base font-semibold">{{ content?.header.title || 'Impulse' }}</div>
                   <div class="text-xs text-gray-300">{{ content?.header.subtitle || 'Your health companion' }}</div>
                 </div>
               </div>
@@ -66,7 +99,7 @@ watch(isOpen, (open) => {
 
           <!-- Menu list -->
           <nav class="py-2 overflow-y-auto">
-            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100">
+            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100" @click="goToProfileLogin">
               <FontAwesomeIcon :icon="faUser" class="w-6 text-gray-500" />
               <span class="text-[15px]">Profile</span>
             </button>
@@ -74,15 +107,15 @@ watch(isOpen, (open) => {
               <FontAwesomeIcon :icon="faCalendarCheck" class="w-6 text-gray-500" />
               <span class="text-[15px]">Appointments</span>
             </button>
-            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100">
+            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100" @click="goToProfilePayments">
               <FontAwesomeIcon :icon="faCreditCard" class="w-6 text-gray-500" />
               <span class="text-[15px]">Payments</span>
             </button>
-            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100">
+            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100" @click="goToHealthVault">
               <FontAwesomeIcon :icon="faFileMedical" class="w-6 text-gray-500" />
               <span class="text-[15px]">Health Vault</span>
             </button>
-            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100">
+            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 active:bg-gray-100 text-gray-700 border-b border-gray-100" @click="goToSettings">
               <FontAwesomeIcon :icon="faGear" class="w-6 text-gray-500" />
               <span class="text-[15px]">Settings</span>
             </button>
@@ -93,7 +126,7 @@ watch(isOpen, (open) => {
 
           <!-- Logout at bottom -->
           <div class="mt-auto p-4 border-t border-gray-100">
-            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-red-50 active:bg-red-100 text-red-600">
+            <button type="button" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-red-50 active:bg-red-100 text-red-600" @click="goToLogin">
               <FontAwesomeIcon :icon="faArrowRightFromBracket" class="w-5" />
               <span>Log out</span>
             </button>

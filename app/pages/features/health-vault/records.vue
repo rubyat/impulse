@@ -37,12 +37,12 @@
         <div class="font-medium">Labs</div>
         <NuxtLink to="/features/health-vault/record/abc123" class="block rounded-lg border p-3">
           <div class="font-medium">CBC Panel</div>
-          <div class="text-xs text-slate-500">Aug 12, 2025 • City Lab</div>
+          <div class="text-xs text-slate-500">Aug 12, 2025 • Popular Diagnostic Center, Dhanmondi</div>
           <div class="text-xs text-slate-500">PDF • 220 KB</div>
         </NuxtLink>
         <NuxtLink to="/features/health-vault/record/jkl222" class="block rounded-lg border p-3">
           <div class="font-medium">HbA1c</div>
-          <div class="text-xs text-slate-500">Aug 01, 2025 • City Lab</div>
+          <div class="text-xs text-slate-500">Aug 01, 2025 • Popular Diagnostic Center, Dhanmondi</div>
           <div class="text-xs text-slate-500">PDF • 110 KB</div>
         </NuxtLink>
       </section>
@@ -51,7 +51,7 @@
         <div class="font-medium">Imaging</div>
         <NuxtLink to="/features/health-vault/record/def456" class="block rounded-lg border p-3">
           <div class="font-medium">Chest X-ray</div>
-          <div class="text-xs text-slate-500">Jul 29, 2025 • Metro Imaging</div>
+          <div class="text-xs text-slate-500">Jul 29, 2025 • Ibn Sina Diagnostic, Dhanmondi</div>
           <div class="text-xs text-slate-500">JPG • 1.2 MB</div>
         </NuxtLink>
       </section>
@@ -60,7 +60,7 @@
         <div class="font-medium">Prescriptions</div>
         <NuxtLink to="/features/health-vault/record/ghi789" class="block rounded-lg border p-3">
           <div class="font-medium">Metformin Rx</div>
-          <div class="text-xs text-slate-500">Jul 20, 2025 • Downtown Pharmacy</div>
+          <div class="text-xs text-slate-500">Jul 20, 2025 • Lazz Pharma, Dhanmondi</div>
           <div class="text-xs text-slate-500">PDF • 90 KB</div>
         </NuxtLink>
       </section>
@@ -74,8 +74,8 @@
         <div class="font-medium">Invoices</div>
         <NuxtLink to="/features/health-vault/invoice/inv001" class="block rounded-lg border p-3">
           <div class="font-medium">INV-001</div>
-          <div class="text-xs text-slate-500">Aug 05, 2025 • City Lab</div>
-          <div class="text-xs text-slate-500">Amount: $120</div>
+          <div class="text-xs text-slate-500">Aug 05, 2025 • Popular Diagnostic Center, Dhanmondi</div>
+          <div class="text-xs text-slate-500">Amount: ৳12,000</div>
         </NuxtLink>
       </section>
     </main>

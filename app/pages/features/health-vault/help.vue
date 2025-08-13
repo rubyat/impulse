@@ -27,8 +27,8 @@
 
       <section class="bg-white border rounded-xl p-4">
         <div class="font-medium">Contact</div>
-        <div class="text-xs text-slate-600">Email: support@example.com</div>
-        <div class="text-xs text-slate-600">Phone: (000) 000-0000</div>
+        <div class="text-xs text-slate-600">Email: support@impulse.bd</div>
+        <div class="text-xs text-slate-600">Phone: +880 9612-000000</div>
       </section>
     </main>
 

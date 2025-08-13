@@ -12,9 +12,9 @@
       </section>
 
       <div class="bg-white border rounded-xl p-4 space-y-2">
-        <div class="flex items-center justify-between"><div>3 mo — APR 0%</div><div>$60/mo</div></div>
-        <div class="flex items-center justify-between"><div>6 mo — APR 6.99%</div><div>$31/mo</div></div>
-        <div class="flex items-center justify-between"><div>12 mo — APR 9.99%</div><div>$16/mo</div></div>
+        <div class="flex items-center justify-between"><div>3 mo — APR 0%</div><div>৳1,500/mo</div></div>
+        <div class="flex items-center justify-between"><div>6 mo — APR 6.99%</div><div>৳775/mo</div></div>
+        <div class="flex items-center justify-between"><div>12 mo — APR 9.99%</div><div>৳400/mo</div></div>
         <div class="text-[11px] text-slate-500">Representative figures for demo.</div>
       </div>
 

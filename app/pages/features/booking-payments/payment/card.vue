@@ -17,7 +17,7 @@
       </section>
 
       <section class="bg-white border rounded-xl p-4 text-sm">
-        <div class="flex items-center justify-between"><span>Total</span><span>$180</span></div>
+        <div class="flex items-center justify-between"><span>Total</span><span>৳4,500</span></div>
       </section>
 
       <NuxtLink to="/features/booking-payments/confirmation" class="h-12 rounded-lg bg-indigo-600 text-white grid place-items-center">Pay now</NuxtLink>

@@ -29,15 +29,15 @@
         <div class="font-medium">Programmes</div>
         <NuxtLink to="/features/programmes-rewards/programme/seniorcare" class="block rounded-lg border p-3">
           <div class="font-medium">SeniorCare+</div>
-          <div class="text-xs text-slate-500">From $29/mo • Cancel anytime</div>
+          <div class="text-xs text-slate-500">From ৳2,900/mo • Cancel anytime</div>
         </NuxtLink>
         <NuxtLink to="/features/programmes-rewards/programme/executive" class="block rounded-lg border p-3">
           <div class="font-medium">Executive Health+</div>
-          <div class="text-xs text-slate-500">From $49/mo • Cancel anytime</div>
+          <div class="text-xs text-slate-500">From ৳4,900/mo • Cancel anytime</div>
         </NuxtLink>
         <NuxtLink to="/features/programmes-rewards/programme/maternity" class="block rounded-lg border p-3">
           <div class="font-medium">Maternity+</div>
-          <div class="text-xs text-slate-500">From $39/mo • Cancel anytime</div>
+          <div class="text-xs text-slate-500">From ৳3,900/mo • Cancel anytime</div>
         </NuxtLink>
       </section>
 

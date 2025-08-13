@@ -4,7 +4,7 @@
       <section class="bg-white border rounded-xl p-4 text-sm">
         <div class="flex items-center justify-between">
           <div>Fertility Baseline</div>
-          <div class="font-medium">$80 <span class="line-through text-slate-400 ml-1">$100</span></div>
+          <div class="font-medium">৳8,000 <span class="line-through text-slate-400 ml-1">৳10,000</span></div>
         </div>
         <div class="mt-2 text-xs text-slate-500">Includes AMH, TSH, Prolactin + Ultrasound</div>
       </section>

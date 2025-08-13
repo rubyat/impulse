@@ -26,32 +26,32 @@
         <div class="grid grid-cols-2 gap-2">
           <button class="h-12 rounded-lg border flex items-center justify-between px-3">
             <span>10:30</span>
-            <span class="text-emerald-700 text-xs bg-emerald-100 border border-emerald-200 rounded-full px-2 py-0.5">Off-peak • $180</span>
+            <span class="text-emerald-700 text-xs bg-emerald-100 border border-emerald-200 rounded-full px-2 py-0.5">Off-peak • ৳4,500</span>
           </button>
           <button class="h-12 rounded-lg border flex items-center justify-between px-3">
             <span>11:15</span>
-            <span class="text-slate-700 text-xs bg-slate-100 border border-slate-200 rounded-full px-2 py-0.5">Standard • $200</span>
+            <span class="text-slate-700 text-xs bg-slate-100 border border-slate-200 rounded-full px-2 py-0.5">Standard • ৳5,000</span>
           </button>
           <button class="h-12 rounded-lg border flex items-center justify-between px-3">
             <span>12:00</span>
-            <span class="text-rose-700 text-xs bg-rose-100 border border-rose-200 rounded-full px-2 py-0.5">Peak • $220</span>
+            <span class="text-rose-700 text-xs bg-rose-100 border border-rose-200 rounded-full px-2 py-0.5">Peak • ৳5,500</span>
           </button>
           <button class="h-12 rounded-lg border flex items-center justify-between px-3">
             <span>15:30</span>
-            <span class="text-emerald-700 text-xs bg-emerald-100 border border-emerald-200 rounded-full px-2 py-0.5">Off-peak • $180</span>
+            <span class="text-emerald-700 text-xs bg-emerald-100 border border-emerald-200 rounded-full px-2 py-0.5">Off-peak • ৳4,500</span>
           </button>
           <button class="h-12 rounded-lg border flex items-center justify-between px-3">
             <span>16:15</span>
-            <span class="text-slate-700 text-xs bg-slate-100 border border-slate-200 rounded-full px-2 py-0.5">Standard • $200</span>
+            <span class="text-slate-700 text-xs bg-slate-100 border border-slate-200 rounded-full px-2 py-0.5">Standard • ৳5,000</span>
           </button>
         </div>
       </section>
 
       <!-- Price summary example -->
       <section class="bg-white border rounded-xl p-4 text-sm">
-        <div class="flex items-center justify-between"><span>Base</span><span>$200</span></div>
-        <div class="flex items-center justify-between text-emerald-700"><span>Tier adj.</span><span>−$20 (Off-peak)</span></div>
-        <div class="mt-2 border-t pt-2 flex items-center justify-between font-medium"><span>Total</span><span>$180</span></div>
+        <div class="flex items-center justify-between"><span>Base</span><span>৳5,000</span></div>
+        <div class="flex items-center justify-between text-emerald-700"><span>Tier adj.</span><span>−৳500 (Off-peak)</span></div>
+        <div class="mt-2 border-t pt-2 flex items-center justify-between font-medium"><span>Total</span><span>৳4,500</span></div>
       </section>
 
       <NuxtLink to="/features/booking-payments/checkout" class="h-12 rounded-lg bg-indigo-600 text-white grid place-items-center">Continue to checkout</NuxtLink>
