@@ -1,0 +1,59 @@
+[
+  {
+    "id": "dr-khan",
+    "name": "Dr. Arif Khan",
+    "specialty": "Internal Medicine",
+    "experienceYears": 12,
+    "hospital": "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+    "city": "Dhaka",
+    "languages": ["Bangla", "English"],
+    "fee": 800,
+    "rating": 4.8,
+    "availability": "Today: 16:00–20:00",
+    "bio": "Experienced in fever, diabetes, hypertension, and general adult care.",
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "dr-farhana",
+    "name": "Dr. Farhana Ahmed",
+    "specialty": "Pediatrics",
+    "experienceYears": 9,
+    "hospital": "Chittagong Medical College Hospital",
+    "city": "Chattogram",
+    "languages": ["Bangla", "English"],
+    "fee": 700,
+    "rating": 4.7,
+    "availability": "Today: 17:00–21:00",
+    "bio": "Child health, vaccinations (EPI), nutrition, and common infections.",
+    "avatarInitials": "FA"
+  },
+  {
+    "id": "dr-sadia",
+    "name": "Dr. Sadia Rahman",
+    "specialty": "Cardiology",
+    "experienceYears": 14,
+    "hospital": "National Heart Foundation Hospital & Research Institute",
+    "city": "Dhaka",
+    "languages": ["Bangla", "English"],
+    "fee": 1200,
+    "rating": 4.9,
+    "availability": "Tomorrow: 10:00–14:00",
+    "bio": "Special interest in hypertension, chest pain evaluation, and preventive cardiology.",
+    "avatarInitials": "SR"
+  },
+  {
+    "id": "dr-rahim",
+    "name": "Dr. Md. Rahim Uddin",
+    "specialty": "General Practitioner",
+    "experienceYears": 7,
+    "hospital": "Cumilla General Hospital",
+    "city": "Cumilla",
+    "languages": ["Bangla"],
+    "fee": 500,
+    "rating": 4.5,
+    "availability": "Today: 15:00–19:00",
+    "bio": "First-contact care for common illnesses, referrals, and counseling.",
+    "avatarInitials": "RU"
+  }
+]
+

@@ -11,6 +11,36 @@
       </div>
     </div>
     <main class="mx-auto max-w-sm pt-4 pb-24  space-y-4 text-sm">
+      <!-- AI assistance -->
+      <section class="space-y-2">
+        <div class="bg-white border rounded-xl p-4">
+          <div class="flex items-start gap-3">
+            <div class="text-xl">🤖</div>
+            <div class="flex-1">
+              <div class="font-medium text-slate-800">AI symptom chat</div>
+              <div class="text-xs text-slate-600 mt-1">Describe your symptoms and get instant triage guidance.</div>
+              <div class="mt-3">
+                <NuxtLink to="/features/ai-triage-nudges/messages" class="inline-flex items-center justify-center h-10 px-3 rounded-lg bg-indigo-600 text-white text-xs">Start AI chat</NuxtLink>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white border rounded-xl p-4">
+          <div class="flex items-start gap-3">
+            <div class="text-xl">🩺</div>
+            <div class="flex-1">
+              <div class="font-medium text-slate-800">Talk to duty doctor</div>
+              <div class="text-xs text-slate-600 mt-1">Chat or connect over video with an on‑call doctor.</div>
+              <div class="mt-3 grid grid-cols-2 gap-2">
+                <NuxtLink to="/features/ai-triage-nudges/doctors" class="h-10 rounded-lg border bg-white grid place-items-center text-xs">Start Chat</NuxtLink>
+                <NuxtLink to="/features/ai-triage-nudges/doctors" class="h-10 rounded-lg bg-emerald-500 text-white grid place-items-center text-xs">Video call</NuxtLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Latest nudge -->
       <NuxtLink to="/features/ai-triage-nudges/advice" class="block rounded-xl border p-4 bg-rose-50 border-rose-200">
         <div class="text-rose-800 font-medium">Tachycardia with poor sleep</div>
