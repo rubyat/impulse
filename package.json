@@ -1,7 +1,17 @@
 {
-  "name": "nuxt-app",
+  "name": "impulse",
   "type": "module",
+  "description": "Modern Nuxt 4 + Tailwind CSS demo app scaffolded with AI.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "keywords": ["nuxt", "vue", "tailwind", "demo", "ai-generated", "showcase"],
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubyat/impulse.git"
+  },
+  "homepage": "https://github.com/rubyat/impulse#readme",
+  "bugs": { "url": "https://github.com/rubyat/impulse/issues" },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
