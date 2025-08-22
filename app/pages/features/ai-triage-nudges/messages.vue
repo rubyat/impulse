@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-slate-50 safe-top safe-bottom">
+  <div class="min-h-[calc(100vh-70px)] sm:min-h-screen bg-slate-50 safe-top safe-bottom">
     <!-- Top bar -->
     <div class="sticky top-0 z-10 bg-white border-b">
       <div class="mx-auto max-w-sm h-14 flex items-center justify-between ">
@@ -36,7 +36,7 @@
       <div ref="endMarker" />
     </main>
     <!-- Bottom input -->
-    <div class="fixed bottom-16 left-1/2 -translate-x-1/2 w-full max-w-sm bg-white border-t safe-bottom">
+    <div class="absolute bottom-[65px] left-0 w-full bg-white border px-4">
       <div class="py-2 flex items-center gap-2">
         <input
           v-model="newMessage"

@@ -13,11 +13,46 @@
       <div class="bg-white border rounded-xl p-4">
         <div class="font-medium">Mood</div>
         <div class="mt-3 grid grid-cols-5 gap-2 text-xl">
-          <button class="h-12 rounded-lg border grid place-items-center">😞</button>
-          <button class="h-12 rounded-lg border grid place-items-center">🙁</button>
-          <button class="h-12 rounded-lg border grid place-items-center">🙂</button>
-          <button class="h-12 rounded-lg border grid place-items-center">😊</button>
-          <button class="h-12 rounded-lg border grid place-items-center">😄</button>
+          <button
+            type="button"
+            @click="selectedMood = 'very-bad'"
+            :class="[
+              'h-12 rounded-lg border grid place-items-center transition-colors',
+              selectedMood === 'very-bad' ? 'border-indigo-600 bg-indigo-50' : ''
+            ]"
+          >😞</button>
+          <button
+            type="button"
+            @click="selectedMood = 'bad'"
+            :class="[
+              'h-12 rounded-lg border grid place-items-center transition-colors',
+              selectedMood === 'bad' ? 'border-indigo-600 bg-indigo-50' : ''
+            ]"
+          >🙁</button>
+          <button
+            type="button"
+            @click="selectedMood = 'neutral'"
+            :class="[
+              'h-12 rounded-lg border grid place-items-center transition-colors',
+              selectedMood === 'neutral' ? 'border-indigo-600 bg-indigo-50' : ''
+            ]"
+          >🙂</button>
+          <button
+            type="button"
+            @click="selectedMood = 'good'"
+            :class="[
+              'h-12 rounded-lg border grid place-items-center transition-colors',
+              selectedMood === 'good' ? 'border-indigo-600 bg-indigo-50' : ''
+            ]"
+          >😊</button>
+          <button
+            type="button"
+            @click="selectedMood = 'very-good'"
+            :class="[
+              'h-12 rounded-lg border grid place-items-center transition-colors',
+              selectedMood === 'very-good' ? 'border-indigo-600 bg-indigo-50' : ''
+            ]"
+          >😄</button>
         </div>
       </div>
 
@@ -27,19 +62,51 @@
         <div>
           <div class="text-slate-700">Little interest or pleasure in doing things?</div>
           <div class="mt-2 grid grid-cols-4 gap-2">
-            <button class="px-2 py-2 rounded-lg border text-xs">Not at all</button>
-            <button class="px-2 py-2 rounded-lg border text-xs">Several days</button>
-            <button class="px-2 py-2 rounded-lg border text-xs">> 1/2 days</button>
-            <button class="px-2 py-2 rounded-lg border text-xs">Nearly every day</button>
+            <button
+              type="button"
+              @click="phq2_q1 = 0"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q1 === 0 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >Not at all</button>
+            <button
+              type="button"
+              @click="phq2_q1 = 1"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q1 === 1 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >Several days</button>
+            <button
+              type="button"
+              @click="phq2_q1 = 2"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q1 === 2 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >&gt; 1/2 days</button>
+            <button
+              type="button"
+              @click="phq2_q1 = 3"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q1 === 3 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >Nearly every day</button>
           </div>
         </div>
         <div>
           <div class="text-slate-700">Feeling down, depressed, or hopeless?</div>
           <div class="mt-2 grid grid-cols-4 gap-2">
-            <button class="px-2 py-2 rounded-lg border text-xs">Not at all</button>
-            <button class="px-2 py-2 rounded-lg border text-xs">Several days</button>
-            <button class="px-2 py-2 rounded-lg border text-xs">> 1/2 days</button>
-            <button class="px-2 py-2 rounded-lg border text-xs">Nearly every day</button>
+            <button
+              type="button"
+              @click="phq2_q2 = 0"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q2 === 0 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >Not at all</button>
+            <button
+              type="button"
+              @click="phq2_q2 = 1"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q2 === 1 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >Several days</button>
+            <button
+              type="button"
+              @click="phq2_q2 = 2"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q2 === 2 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >&gt; 1/2 days</button>
+            <button
+              type="button"
+              @click="phq2_q2 = 3"
+              :class="['px-2 py-2 rounded-lg border text-xs', phq2_q2 === 3 ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : '']"
+            >Nearly every day</button>
           </div>
         </div>
       </div>
@@ -59,6 +126,14 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref, computed } from 'vue'
+
+const selectedMood = ref<'very-bad' | 'bad' | 'neutral' | 'good' | 'very-good'>('neutral')
+const phq2_q1 = ref<number>(0)
+const phq2_q2 = ref<number>(0)
+
+const phq2_score = computed(() => phq2_q1.value + phq2_q2.value)
+</script>
 
 

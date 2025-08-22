@@ -43,16 +43,6 @@
       </div>
     </main>
 
-    <!-- Bottom tab bar -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white border-t safe-bottom">
-      <nav class="mx-auto max-w-sm h-16 grid grid-cols-5 text-xs">
-        <NuxtLink to="/features/ai-triage-nudges" class="flex flex-col items-center justify-center">🏠<span>Feed</span></NuxtLink>
-        <NuxtLink to="/features/ai-triage-nudges/advice" class="flex flex-col items-center justify-center">🎯<span>Advice</span></NuxtLink>
-        <NuxtLink to="/features/ai-triage-nudges/referrals" class="flex flex-col items-center justify-center">🩺<span>Referrals</span></NuxtLink>
-        <NuxtLink to="/features/ai-triage-nudges/packages" class="flex flex-col items-center justify-center">💸<span>Offers</span></NuxtLink>
-        <NuxtLink to="/features/ai-triage-nudges/messages" class="flex flex-col items-center justify-center">💬<span>Chat</span></NuxtLink>
-      </nav>
-    </div>
   </div>
 </template>
 

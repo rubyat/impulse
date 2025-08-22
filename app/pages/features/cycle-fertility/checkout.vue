@@ -11,14 +11,32 @@
 
       <section class="bg-white border rounded-xl p-4">
         <label class="block text-sm font-medium">Apply discount</label>
-        <input placeholder="Enter code" class="mt-2 w-full h-12 rounded-lg border px-3 text-sm" />
+        <input v-model="discountCode" placeholder="Enter code" class="mt-2 w-full h-12 rounded-lg border px-3 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-300" />
       </section>
 
       <section class="bg-white border rounded-xl p-4">
         <label class="block text-sm font-medium">Payment method</label>
         <div class="mt-2 grid grid-cols-2 gap-2">
-          <button class="h-10 rounded-lg border">Card</button>
-          <button class="h-10 rounded-lg border">Mobile</button>
+          <button
+            type="button"
+            @click="selectedPaymentMethod = 'card'"
+            :class="[
+              'h-10 rounded-lg border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-300',
+              selectedPaymentMethod === 'card' ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : ''
+            ]"
+          >
+            Card
+          </button>
+          <button
+            type="button"
+            @click="selectedPaymentMethod = 'mobile'"
+            :class="[
+              'h-10 rounded-lg border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-300',
+              selectedPaymentMethod === 'mobile' ? 'border-indigo-600 bg-indigo-50 text-indigo-700' : ''
+            ]"
+          >
+            Mobile
+          </button>
         </div>
       </section>
 
@@ -27,6 +45,11 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const discountCode = ref('')
+const selectedPaymentMethod = ref<'card' | 'mobile'>('card')
+</script>
 
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-50 safe-top safe-bottom">
+  <div class="min-h-[calc(100vh-70px)] sm:min-h-screen bg-slate-50 safe-top safe-bottom">
     <!-- Top bar -->
     <div class="sticky top-0 z-10 bg-white border-b">
       <div class="mx-auto max-w-sm h-14  flex items-center justify-between">
@@ -29,9 +29,9 @@
       </div>
     </div>
     <!-- Bottom input -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white border-t safe-bottom">
+    <div class="absolute bottom-[65px] left-0 w-full bg-white border px-4">
       <div class="mx-auto max-w-sm  py-2 flex items-center gap-2">
-        <input placeholder="Type a message" class="flex-1 h-10 rounded-full border " />
+        <input placeholder="Type a message" class="flex-1 h-10 px-4 rounded-full border " />
         <button class="px-3 py-2 rounded-lg bg-indigo-600 text-white">Send</button>
       </div>
     </div>

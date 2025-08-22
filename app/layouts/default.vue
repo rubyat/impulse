@@ -1,5 +1,5 @@
 <template>
-  <div class="safe-top safe-bottom min-h-screen bg-white pb-24 md:min-h-0 md:h-full">
+  <div class="safe-top safe-bottom min-h-screen bg-white pb-24 md:min-h-0 md:h-full relative">
     <AppHeader />
     <slot />
     <Tabbar v-if="content && content.tabs" :items="content.tabs" />

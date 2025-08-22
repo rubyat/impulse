@@ -47,16 +47,7 @@
       </section>
     </main>
 
-    <!-- Bottom tab bar -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white border-t safe-bottom">
-      <nav class="mx-auto max-w-sm h-16 grid grid-cols-5 text-xs">
-        <NuxtLink class="flex flex-col items-center justify-center text-indigo-600" to="/features/health-vault">🏠<span>Home</span></NuxtLink>
-        <NuxtLink class="flex flex-col items-center justify-center text-slate-600" to="/features/health-vault/records">🧪<span>Records</span></NuxtLink>
-        <NuxtLink class="flex flex-col items-center justify-center text-slate-600" to="/features/health-vault/upload">📤<span>Upload</span></NuxtLink>
-        <NuxtLink class="flex flex-col items-center justify-center text-slate-600" to="/features/health-vault/timeline">🗓️<span>Timeline</span></NuxtLink>
-        <NuxtLink class="flex flex-col items-center justify-center text-indigo-600" to="/features/health-vault/settings">⚙️<span>Settings</span></NuxtLink>
-      </nav>
-    </div>
+
   </div>
 </template>
 
